@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  background-color: #001f3f;
+  color: white;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #002b5c;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  color: #00d8ff;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.sidebar a:hover {
+  color: #00ffcc;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+h1 {
+  color: #00d8ff;
+}
+
+.product {
+  background: #004080;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product h3 {
+  color: #00ffcc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #00ffcc;
+  color: #001f3f;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.order-form {
+  background: #002b5c;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.order-form input,
+.order-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.order-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #00ffcc;
+  color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 40px;
+  color: #aaa;
+}
